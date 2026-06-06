@@ -1,0 +1,54 @@
+# 图像几何尺寸 (宽 50mm, 高 40mm)
+figure.figsize: 1.9685, 1.5748
+figure.dpi: 72
+
+# 坐标轴位置和大小设置
+# left: 8.5mm, bottom: 8.5mm, width: 40mm, height: 30mm
+figure.subplot.left: 0.17
+figure.subplot.right: 0.97
+figure.subplot.bottom: 0.2125
+figure.subplot.top: 0.9625
+
+# 字体字号控制 (字号: 8 pt)
+font.family: serif
+font.serif: Times New Roman, Arial
+font.size: 8
+
+axes.titlesize: 8
+axes.labelsize: 8
+axes.labelpad: 0
+xtick.labelsize: 8
+ytick.labelsize: 8
+legend.fontsize: 8
+
+# 数学文本字体设置 (希腊字母使用 symbol)
+text.usetex: False
+mathtext.fontset: custom
+mathtext.rm: Times New Roman
+mathtext.it: Times New Roman:italic
+mathtext.bf: Times New Roman:bold
+mathtext.default: regular
+
+# 坐标轴与线宽控制
+axes.linewidth: 0.5
+
+# 刻度线几何控制 (长度: 3)
+xtick.major.size: 3
+ytick.major.size: 3
+xtick.major.width: 0.5
+ytick.major.width: 0.5
+xtick.minor.size: 1.5
+ytick.minor.size: 1.5
+xtick.minor.width: 0.5
+ytick.minor.width: 0.5
+xtick.minor.visible: True
+ytick.minor.visible: True
+xtick.top: True
+ytick.right: True
+xtick.direction: in
+ytick.direction: in
+
+# 默认绘图属性
+lines.linewidth: 0.8
+lines.markersize: 3.0
+axes.prop_cycle: cycler('color', ['0C5DA5', '00B945', 'FF9500', 'FF2C00', '845B97', '474747', '9e9e9e'])
